@@ -68,8 +68,10 @@
   left: -3rem;
 }
 .i-right > :nth-child(3) {
-  transform: scale(1.4);
-  left: 28%;
+  transform: scale(2);
+  left: 43%;
+  bottom: 40%;
+  border-radius: 1.5rem;
 }
 .i-right > :nth-child(4) {
   transform: scale(0.62);

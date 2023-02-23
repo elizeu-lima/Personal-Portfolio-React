@@ -27,7 +27,7 @@ function App() {
       <Experience />
       <Works />
       <Portfolio />
-      <Testimonial />
+      
       <Contact />
       <Footer />
     </div>
@@ -35,3 +35,5 @@ function App() {
 }
 
 export default App;
+
+//<Testimonial />

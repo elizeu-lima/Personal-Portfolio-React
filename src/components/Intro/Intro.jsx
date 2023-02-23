@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/boy.png";
+import boy from "../../img/lima_resized.jpg";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -27,21 +27,23 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Bem Vindo(a)! Sou</span>
+          <span>Elizeu Lima</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+            Frontend Developer Formado em Análise e Desenvolvimento de Sistemas
+            Com experiência em React, Angular e Node.Js. 
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
-          <button className="button i-button">Hire me</button>
+          <button className="button i-button">Contato</button>
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a href="https://github.com/elizeu-lima"><img src={Github} alt="Logo Github" /></a>
+          
+          <a href="https://www.linkedin.com/in/elizeu-lima-ab6a54159/"> <img src={LinkedIn} alt="Logo Linkedin" /></a>
+          <a href="https://www.instagram.com/elizeucoca_/"><img src={Instagram} alt="Logo Instagran" /></a>
+          
         </div>
       </div>
       {/* right image side */}

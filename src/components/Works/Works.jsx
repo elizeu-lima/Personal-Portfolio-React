@@ -21,21 +21,27 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Works for All these
+             Apenas Para
           </span>
-          <span>Brands & Clients</span>
+          <span>Demosntração</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+            Utilizei para fins de ilustar 
+            minha habilidade com as logos.
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            De algumas empresas reais. 
+            Porém ainda não trabalhei.
             <br />
-            y dummy text of printingLorem
+            Possuo as seguintes SoftSkils:
             <br />
-            ispum is simpley dummy text of printing
+            Colaboração,
+            Comunicação eficaz,
+            Flexibilidade,
+            Relacionamento interpessoal,
+            Resiliência
+
           </spane>
           <Link to="contact" smooth={true} spy={true}>
-            <button className="button s-button">Hire Me</button>
+            <button className="button s-button">Contato</button>
           </Link>
           <div
             className="blur s-blur1"
